@@ -1,3 +1,113 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    top: 0;
+    margin: 16px 24px 16px 24px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.nav-item{
+    margin-left: 16px;
+}
+
+.nav-item:hover{
+    color:rgb(63, 63, 166);
+    cursor: pointer;
+}
+
+.name{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.colmar{
+    font-weight: 700;
+}
+
+.logoIcon{
+    height: 60px;
+}
+
+.container1{
+    padding: 32px 24px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 60%;
+}
+
+.container1-right{
+    margin: auto 24px;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(101, 101, 101);
+}
+
+.container1-sub{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+button{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border: none;
+    padding: 8px 60px 8px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 24px;
+}
+
+button:hover{
+    background-color: rgb(107, 106, 106);
+    cursor: pointer;
+}
+
+.container2{
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 60% 40%;
+}
+
+.container2-left{
+    grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.information-main{
+    width: 60%;;
+}
+
+.container2-card-img{
+    width: 35%;
+}
+
+video{
+    width: 60%;
 }
